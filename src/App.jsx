@@ -17,11 +17,11 @@ function App() {
 
       <div className="wrapper-container">
         <Routes>
-        <Route path='/' element={<HomePage />} />
-        <Route path='skills' element={<SkillsPage />} />
-        <Route path='projects' element={<ProjectsPage />} />
-        <Route path='about' element={<AboutPage />} />
-        <Route path='contact' element={<ContactPage />} />
+          <Route path='/' element={<HomePage />} />
+          <Route path='skills' element={<SkillsPage />} />
+          <Route path='projects' element={<ProjectsPage />} />
+          <Route path='about' element={<AboutPage />} />
+          <Route path='contact' element={<ContactPage />} />
         </Routes>
       </div>
 
